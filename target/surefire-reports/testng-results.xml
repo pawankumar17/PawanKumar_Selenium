@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-28T08:30:31 IST" name="Suite" finished-at="2022-11-28T08:31:24 IST" duration-ms="52846">
+    <groups>
+    </groups>
+    <test started-at="2022-11-28T08:30:31 IST" name="Test" finished-at="2022-11-28T08:31:24 IST" duration-ms="52846">
+      <class name="day3.AssertionDemo">
+        <test-method signature="test1()[pri:0, instance:day3.AssertionDemo@437da279]" started-at="2022-11-28T08:30:31 IST" name="test1" finished-at="2022-11-28T08:30:31 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:day3.AssertionDemo@437da279]" started-at="2022-11-28T08:30:31 IST" name="test2" finished-at="2022-11-28T08:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:day3.AssertionDemo@437da279]" started-at="2022-11-28T08:30:38 IST" name="test3" finished-at="2022-11-28T08:30:38 IST" depends-on-methods="day3.AssertionDemo.test2" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- day3.AssertionDemo -->
+      <class name="day3.TestNG1">
+        <test-method signature="createAccount()[pri:0, instance:day3.TestNG1@550dbc7a]" started-at="2022-11-28T08:30:31 IST" name="createAccount" finished-at="2022-11-28T08:30:31 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="logoutAccount()[pri:1, instance:day3.TestNG1@550dbc7a]" started-at="2022-11-28T08:30:31 IST" name="logoutAccount" finished-at="2022-11-28T08:30:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAccount -->
+        <test-method signature="deleteAccount()[pri:0, instance:day3.TestNG1@550dbc7a]" started-at="2022-11-28T08:30:31 IST" name="deleteAccount" finished-at="2022-11-28T08:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
+        <test-method signature="login()[pri:2, instance:day3.TestNG1@550dbc7a]" started-at="2022-11-28T08:30:31 IST" name="login" finished-at="2022-11-28T08:30:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- day3.TestNG1 -->
+      <class name="day2.Calender">
+        <test-method signature="test6()[pri:0, instance:day2.Calender@1e1a0406]" started-at="2022-11-28T08:30:42 IST" name="test6" finished-at="2022-11-28T08:30:51 IST" duration-ms="9294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- day2.Calender -->
+      <class name="day2.AlertHandling">
+        <test-method signature="test5()[pri:0, instance:day2.AlertHandling@290222c1]" started-at="2022-11-28T08:30:40 IST" name="test5" finished-at="2022-11-28T08:30:44 IST" duration-ms="4317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- day2.AlertHandling -->
+      <class name="day1.MyFirstSeleniumScript4">
+        <test-method signature="test3()[pri:0, instance:day1.MyFirstSeleniumScript4@3cebbb30]" started-at="2022-11-28T08:30:38 IST" name="test3" finished-at="2022-11-28T08:30:42 IST" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- day1.MyFirstSeleniumScript4 -->
+      <class name="day1.MyFirstSeleniumScript">
+        <test-method signature="test()[pri:0, instance:day1.MyFirstSeleniumScript@6253c26]" started-at="2022-11-28T08:30:31 IST" name="test" finished-at="2022-11-28T08:30:40 IST" duration-ms="8750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- day1.MyFirstSeleniumScript -->
+      <class name="day3.LoginVerification">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day3.LoginVerification@49049a04]" started-at="2022-11-28T08:31:17 IST" name="setup" finished-at="2022-11-28T08:31:22 IST" duration-ms="4473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyUsernamePassword()[pri:1, instance:day3.LoginVerification@49049a04]" started-at="2022-11-28T08:31:22 IST" name="emptyUsernamePassword" finished-at="2022-11-28T08:31:22 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernamePassword -->
+        <test-method signature="emptyPassword()[pri:2, instance:day3.LoginVerification@49049a04]" started-at="2022-11-28T08:31:22 IST" name="emptyPassword" finished-at="2022-11-28T08:31:22 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method signature="emptyUsername()[pri:3, instance:day3.LoginVerification@49049a04]" started-at="2022-11-28T08:31:22 IST" name="emptyUsername" finished-at="2022-11-28T08:31:22 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method signature="invalidCredintial()[pri:4, instance:day3.LoginVerification@49049a04]" started-at="2022-11-28T08:31:22 IST" name="invalidCredintial" finished-at="2022-11-28T08:31:23 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredintial -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day3.LoginVerification@49049a04]" started-at="2022-11-28T08:31:23 IST" name="teardown" finished-at="2022-11-28T08:31:23 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- day3.LoginVerification -->
+      <class name="day1.Facebook">
+        <test-method signature="xtest()[pri:0, instance:day1.Facebook@12aba8be]" started-at="2022-11-28T08:31:11 IST" name="xtest" finished-at="2022-11-28T08:31:24 IST" duration-ms="12763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xtest -->
+      </class> <!-- day1.Facebook -->
+      <class name="day1.MyFirstSeleniumScript3">
+        <test-method signature="test2()[pri:0, instance:day1.MyFirstSeleniumScript3@67f639d3]" started-at="2022-11-28T08:30:31 IST" name="test2" finished-at="2022-11-28T08:30:38 IST" duration-ms="6759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- day1.MyFirstSeleniumScript3 -->
+      <class name="day3.Ineuron">
+        <test-method signature="test22()[pri:0, instance:day3.Ineuron@23c30a20]" started-at="2022-11-28T08:30:31 IST" name="test22" finished-at="2022-11-28T08:30:38 IST" duration-ms="6503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+      </class> <!-- day3.Ineuron -->
+      <class name="day2.HandleDynamicElements">
+        <test-method signature="test8()[pri:0, instance:day2.HandleDynamicElements@2c1b194a]" started-at="2022-11-28T08:30:51 IST" name="test8" finished-at="2022-11-28T08:31:17 IST" duration-ms="26130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+      </class> <!-- day2.HandleDynamicElements -->
+      <class name="day2.HandleAutoSuggestion">
+        <test-method signature="test7()[pri:0, instance:day2.HandleAutoSuggestion@32502377]" started-at="2022-11-28T08:30:44 IST" name="test7" finished-at="2022-11-28T08:31:03 IST" duration-ms="19004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+      </class> <!-- day2.HandleAutoSuggestion -->
+      <class name="day1.Orange">
+        <test-method signature="test4()[pri:0, instance:day1.Orange@957e06]" started-at="2022-11-28T08:30:38 IST" name="test4" finished-at="2022-11-28T08:31:11 IST" duration-ms="33272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- day1.Orange -->
+      <class name="day3.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:03 IST" name="setup" finished-at="2022-11-28T08:31:07 IST" duration-ms="4177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForgetPassword()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:07 IST" name="verifyForgetPassword" finished-at="2022-11-28T08:31:08 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgetPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:08 IST" name="teardown" finished-at="2022-11-28T08:31:08 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:08 IST" name="setup" finished-at="2022-11-28T08:31:12 IST" duration-ms="3777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySocialMediaCount()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:12 IST" name="verifySocialMediaCount" finished-at="2022-11-28T08:31:12 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySocialMediaCount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:12 IST" name="teardown" finished-at="2022-11-28T08:31:12 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:12 IST" name="setup" finished-at="2022-11-28T08:31:17 IST" duration-ms="4961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:17 IST" name="verifyTitle" finished-at="2022-11-28T08:31:17 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:17 IST" name="teardown" finished-at="2022-11-28T08:31:17 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:17 IST" name="setup" finished-at="2022-11-28T08:31:22 IST" duration-ms="4797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUrl()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:22 IST" name="verifyUrl" finished-at="2022-11-28T08:31:22 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day3.LoginTest@47987356]" started-at="2022-11-28T08:31:22 IST" name="teardown" finished-at="2022-11-28T08:31:22 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- day3.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

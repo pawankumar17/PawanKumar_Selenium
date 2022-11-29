@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="day3.LoginVerification">
+        <methods>
+          <include name="emptyPassword"/>
+          <include name="teardown"/>
+          <include name="emptyUsername"/>
+          <include name="setup"/>
+          <include name="invalidCredintial"/>
+          <include name="emptyUsernamePassword"/>
+        </methods>
+      </class> <!-- day3.LoginVerification -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

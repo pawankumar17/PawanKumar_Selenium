@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="3" name="Test" parallel="classes">
+    <classes>
+      <class name="day3.LoginTest"/>
+      <class name="day1.Orange"/>
+      <class name="day2.HandleAutoSuggestion"/>
+      <class name="day2.HandleDynamicElements"/>
+      <class name="day3.TestNG1"/>
+      <class name="day3.AssertionDemo"/>
+      <class name="day3.Ineuron"/>
+      <class name="day2.Calender"/>
+      <class name="day1.MyFirstSeleniumScript4"/>
+      <class name="day1.Facebook"/>
+      <class name="day2.AlertHandling"/>
+      <class name="day1.MyFirstSeleniumScript3"/>
+      <class name="day1.MyFirstSeleniumScript"/>
+      <class name="day3.LoginVerification"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
